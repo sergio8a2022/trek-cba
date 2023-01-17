@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("usePolarisNeedsTapToStart",["usePolarisViewer","useRouteReferrer"],(function(a,b,c,d,e,f,g){"use strict";function a(a){var b=c("useRouteReferrer")(),d=c("usePolarisViewer")();d=d!=null&&d.id===a;return d===!1&&((b==null?void 0:b.navigationType)==="initial"||(b==null?void 0:b.navigationType)==="reload")}g["default"]=a}),98);
