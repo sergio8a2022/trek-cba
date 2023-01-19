@@ -48,10 +48,7 @@ img{
     width: 48px;
     height: 48px;
 }
-footer{
-    padding: 50px;
-    background-color: darkgreen;
-}
+
 h1{ 
     color: black;
     padding: 40px;
@@ -67,7 +64,7 @@ footer{
 
 .imgIndex {
     height: 900px;
-    width: 1500px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -90,9 +87,7 @@ h1{
 }
 
 .imgpaisajes{
-    height: 100px;
-    width: 1400px;
-    border: 20px;
+    
 
 }
 .imgrutas{
@@ -108,5 +103,5 @@ H3{
     display: flex;
     justify-content: center;
     height:20px;
-    width: 1400px;
+    width: 100%;
 }
