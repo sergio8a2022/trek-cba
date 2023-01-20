@@ -50,7 +50,7 @@ img{
 }
 
 h1{ 
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 40px;
     text-align: center;
 }
@@ -92,10 +92,26 @@ h1{
     width: 100%;
     display: flex;
 }
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: aliceblue;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+transform: translateY(-3%);
+}
+
 .imgsenderos{
-    height: 600px;
-    width: 60%;
+    width: 100%;
     display: flex;
+    max-width: 1100px;
+
 }
 H3{
     background-color: orangered;
@@ -103,16 +119,4 @@ H3{
     justify-content: center;
     height:20px;
     width: 100%;
-}
-.box-paisajes{
-    display: flex;
-    height: 600px;
-    width: 30%;
-}
-.box-paisajes:hover{
-    transform: scale(1);
-    transition-property: all;
-    transition-duration: 3s;
-
-
 }
