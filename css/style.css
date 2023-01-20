@@ -63,13 +63,13 @@ footer{
 }
 
 .imgIndex {
-    height: 900px;
+    height: 700px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .telefono{
-    height: 900px;
+    height: 700px;
     width: 100%;
     border: 20px;
 }
@@ -86,17 +86,16 @@ h1{
     padding: 10px;
 }
 
-.imgpaisajes{
-    
 
-}
 .imgrutas{
     height: 600px;
-    width: 1300px;
+    width: 100%;
+    display: flex;
 }
 .imgsenderos{
-    height: 900px;
-    width: 1000px;
+    height: 600px;
+    width: 60%;
+    display: flex;
 }
 H3{
     background-color: orangered;
@@ -104,4 +103,16 @@ H3{
     justify-content: center;
     height:20px;
     width: 100%;
+}
+.box-paisajes{
+    display: flex;
+    height: 600px;
+    width: 30%;
+}
+.box-paisajes:hover{
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 3s;
+
+
 }
