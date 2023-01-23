@@ -24,22 +24,54 @@ p{
 body{
     background-color: cadetblue;
 }
-header{
+header{ 
+    width: 100%;
+    height: 70px;
     padding: 50px;
     background-color: darkgreen;
 }
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo p a{
+    color: white;
+    font-size: 40px;
+}
 nav ul{
+    width: 70%;
+    height: 70px;
+    float: left;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
 }
-ul li{
+ul li a{
     list-style-type: none;
-}
-a{
+    font-size: 13px;
     text-decoration: none;
     color: aliceblue;
-    padding: 10px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: #444;
 }
 img{
     width: 70%;
@@ -88,8 +120,7 @@ h1{
 
 
 .imgrutas{
-    height: 600px;
-    width: 100%;
+    width: 70%;
     display: flex;
 }
 .card{
@@ -111,6 +142,7 @@ transform: translateY(-3%);
     width: 100%;
     display: flex;
     max-width: 1100px;
+    
 
 }
 H3{
