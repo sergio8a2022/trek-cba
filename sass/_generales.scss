@@ -15,12 +15,11 @@ header{
     height: 85px;
     padding: 0;
     background-image: linear-gradient(130deg, #fdffa0 0, #e6ff9f 16.67%, #d0ff9f 33.33%, #b9f29d 50%, #a4e49b 66.67%, #92d89a 83.33%, #82cd99 100%);
-}
-.ancho{
-    width: 80%;
-    height: 70px;
-    margin: auto;
-
+    .ancho{
+        width: 80%;
+        height: 70px;
+        margin: auto;
+    
 }
 .logo{
     width: 30%;
@@ -30,10 +29,14 @@ header{
     box-sizing: border-box;
     font-weight: bold;
 }
-.logo p a{
+.logo a {
     color: white;
     font-size: 40px;
 }
+}
+
+
+
 
 h1{ 
     color: rgb(255, 255, 255);
@@ -55,7 +58,11 @@ H3{
     height:20px;
     width: 100%;
 }
+
 }
+
+
+
 input, textarea{
     width: 100%;
     margin-bottom: 20px;
@@ -72,3 +79,6 @@ form{
     margin-top: 20px;
     border-radius: 10px;
 }
+
+
+
